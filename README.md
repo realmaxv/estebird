@@ -1,3 +1,30 @@
+Herzlich Willkommen bei ESTEBIRD. 
+Sein Name ist Estebird. Pedro Estebird. 
+Er präsentiert den BIRD OF THE DAY.
+
+____________________________
+wer, was, warum und wie
+____________________________
+IMG first draft Design
+____________________________
+IMG Kickoff ProjectMiro
+____________________________
+Functionalities
+____________________________
+more Ideas to work on
+____________________________
+TechStack
+____________________________
+Deployment
+____________________________
+BackEnd
+____________________________
+How to get it running
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
