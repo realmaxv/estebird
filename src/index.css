@@ -4,6 +4,32 @@
 
 @custom-variant dark (&: is(.dark *));
 
+@keyframes blinkGreen {
+  0%,
+  100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #38a169; /* Tailwind green-700 */
+  }
+}
+.animate-blink-green {
+  animation: blinkGreen 2.7s ease-in-out;
+}
+
+@keyframes blinkRed {
+  0%,
+  100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #e53e3e; /* Tailwind red-500 */
+  }
+}
+.animate-blink-red {
+  animation: blinkRed 2.7s ease-in-out;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

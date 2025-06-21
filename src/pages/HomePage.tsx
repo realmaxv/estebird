@@ -15,7 +15,7 @@ function HomePage() {
       </section>
       <section className="relative z-10 flex flex-col gap-4  items-center justify-end pb-20  h-screen w-full">
         <OptionCard title="Bird of the Day" linkTo="/birdoftheday" />
-        <OptionCard title="Bird Quiz" linkTo="/" />
+        <OptionCard title="Bird Quiz" linkTo="/quiz" />
         <OptionCard title="Who the FUC* is Estebird?!" linkTo="/" />
       </section>
     </main>
