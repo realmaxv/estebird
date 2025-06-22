@@ -36,14 +36,17 @@ function BirdOfTheDayPage() {
     console.log(birds);
 
     return (
-      <main className="flex items-center justify-center h-screen">
+      <main className="flex items-center justify-center  h-screen">
         <Header title="Bird of the Day" />
-        <article className="flex flex-col items-center  justify-center">
-          <img
-            src={birds[randomIndex].images[0]}
-            alt={`image from bird of the day: ${birds[randomIndex].name}`}
-          />
-          <h2 className="text-2xl font-black">{birds[randomIndex].name}</h2>
+        <article className="  flex flex-col items-center   gap-2">
+          <div className="flex items-center justify-center flex-col ">
+            <img
+              className="max-w-2xl max-h-96"
+              src={birds[randomIndex].images[0]}
+              alt={`image from bird of the day: ${birds[randomIndex].name}`}
+            />
+            <h2 className="text-2xl font-black">{birds[randomIndex].name}</h2>
+          </div>
           <p>{birds[randomIndex].family}</p>
           <p>{birds[randomIndex].region[0]}</p>
         </article>
