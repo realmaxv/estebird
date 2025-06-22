@@ -22,7 +22,7 @@ function QuizPage() {
     setTimeout(() => {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
       setSelectedAnswer(null);
-    }, 3000);
+    }, 1000);
   };
 
   if (currentQuestionIndex >= quizzes[0].questions.length) {
